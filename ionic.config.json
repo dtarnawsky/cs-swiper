@@ -1,0 +1,7 @@
+{
+  "name": "cs-swiper",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

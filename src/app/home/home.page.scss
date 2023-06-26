@@ -1,0 +1,23 @@
+swiper-container {
+  height: 100%;
+}
+
+swiper-slide {
+  display: flex;
+  flex-direction: column;
+}
+
+.slide-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: scroll;  
+}
+
+.footer {
+
+  height: 50px;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}

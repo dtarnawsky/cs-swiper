@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <swiper-container>
+    <swiper-slide>Slide 1</swiper-slide>
+    <!-- <swiper-slide style="overflow:auto"> --><!-- This works for slides but the footer is no longer a footer-->
+      <swiper-slide>
+      <div class="slide-content">
+      {{content}}
+      </div>
+      <div class="footer">
+        <p>Footer</p>
+      </div>
+    </swiper-slide>
+    <swiper-slide>Slide 3
+
+    </swiper-slide>
+  </swiper-container>
+</ion-content>
